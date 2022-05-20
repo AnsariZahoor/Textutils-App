@@ -10,11 +10,11 @@ export default function Navbar(props) {
           {props.mode === 'light'
             ? 
             <button type="button" className={`btn btn-${props.mode} float-end border-0`} onClick={props.toggleMode}>
-              <i class="bi bi-brightness-high-fill" style={{ "font-size": "18px" }}></i>
+              <i className="bi bi-brightness-high-fill" style={{ "fontSize": "18px" }}></i>
             </button>
             :
             <button type="button" className={`btn btn-${props.mode} float-end border-0`} onClick={props.toggleMode}>
-              <i class="bi bi-moon-fill" style={{ "font-size": "18px" }}></i>
+              <i className="bi bi-moon-fill" style={{ "fontSize": "18px" }}></i>
             </button>
           }
         </div>
